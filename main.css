@@ -202,3 +202,139 @@ header nav ul li.btn a:hover {
     margin-bottom: 30px;
     width: 550px;
 }
+
+.banner img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.features {
+    background: url(/images/Comeshot.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 80px;
+}
+
+.features h3,
+.features p {
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features h3 {
+    font-size: 30px;
+}
+
+.features .info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.features .info .block {
+    text-align: center;
+    width: 20%;
+    margin: 30px 2%;
+}
+
+.projects {
+    padding: 100px 0;
+}
+
+.projects h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.projects p {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.projects .image {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    border-radius: 30px;
+}
+
+.projects .see-all {
+    color: #fff;
+    background: #25211d;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: none;
+    width: 70px;
+    text-align: center;
+    display: block;
+    transition: all 500ms ease;
+    margin: 0 auto;
+}
+
+.projects .see-all:hover {
+    transform: scale(1.1);
+}
+
+.email {
+    padding-bottom: 120px;
+}
+
+.email h3 {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.email .block {
+    background: #1c140f;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 40px 3%;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email .block p {
+    width: 600px;
+}
+
+.email .block input {
+    background: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    width: 380px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 30px 20px;
+    position: relative;
+    right: -100px;
+    z-index: 1;
+}
+
+.email .block input::placeholder {
+    color: #898989;
+}
+
+.email .block button {
+    background: #fa9021;
+    padding: 9px 17px;
+    border-radius:5px;
+    transition: all 500ms ease;
+    position: relative;
+    z-index: 2;
+}
+
+.email .block button:hover {
+    background: #c06402bd;
+}
+
+.email .block button {
+    cursor: pointer;
+    border: 0;
+    padding: 13px 17px;
+}
+
