@@ -23,6 +23,7 @@ img {
 .wrapper {
     background: linear-gradient(180deg,rgba(0,0,0,1) 0%, rgba(26,14,1,1) 100%);
     width: 100%;
+    overflow-x: hidden;
 }
 
 .container {
@@ -114,6 +115,7 @@ header nav ul li.btn a:hover {
     font-weight: 500;
     line-height: 170%;
     margin: 30px 0;
+    width: 900px;
 }
 
 .hero––info .btn {
@@ -209,7 +211,7 @@ header nav ul li.btn a:hover {
     border-radius: 10px;
 }
 .features {
-    background: url(images/Comeshot.jpg) no-repeat center center fixed;
+    background: url(/images/Comeshot.jpg) no-repeat center center fixed;
     background-size: cover;
     padding: 80px;
 }
@@ -313,7 +315,8 @@ header nav ul li.btn a:hover {
     position: relative;
     right: -100px;
     z-index: 1;
-}
+    padding-right: 120px;
+} 
 
 .email .block input::placeholder {
     color: #898989;
@@ -321,8 +324,9 @@ header nav ul li.btn a:hover {
 
 .email .block button {
     background: #fa9021;
+    color: #fff;
     padding: 9px 17px;
-    border-radius:5px;
+    border-radius:10px;
     transition: all 500ms ease;
     position: relative;
     z-index: 2;
@@ -338,3 +342,227 @@ header nav ul li.btn a:hover {
     padding: 13px 17px;
 }
 
+.hero-about {
+    position: relative;
+}
+
+.hero-about .info {
+    width: 500px;
+    padding: 200px 0;
+}
+
+.hero-about .info h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.hero-about .info .btn {
+    background-color: #dc7000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-size: 17px;
+    transition: all 500ms ease;
+    border: 0;
+    margin-top: 70px;
+}
+
+.hero-about .info .btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.hero-about img {
+    position: absolute;
+    right: -30px;
+    top: 0;
+} 
+
+.work {
+    padding: 80px 0;
+}
+
+footer {
+    background: #1c140f;
+    padding: 50px;
+}
+
+.work h2 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.work .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work .blocks .block {
+    width: 25%;
+    line-height: 30px;
+    border-radius: 50px;
+    padding: 30px 30px;
+    background: #1c140f;
+}
+
+.work .blocks .block h3 {
+    font-size: 23px;
+    padding: 25px 0;
+}
+
+.work .blocks .block .badge {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.work .blocks .block .badge.red {
+    background: #db0000;
+}
+
+.work .blocks .block .badge.blue {
+    background: #487efb;
+}
+
+.work .blocks .block .badge.purple {
+    background: #570095;
+}
+
+
+.hero-contacts h1 {
+    text-align: center;
+    margin: 70px;
+    margin-bottom: 30px;
+}
+
+.hero-contacts p {
+    text-align: center;
+    padding: 0 30px;
+    font-weight: 200;
+}
+
+.hero-contacts img {
+    width: 80%;
+    margin: 30px 10%;
+}
+
+.feedback {
+    background: #25211d ;
+    padding: 70px 0;
+}
+
+.feedback .input {
+    display: flex;
+
+}
+
+.feedback .hello-world h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.feedback .hello-world p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.feedback form {
+    margin: 80px auto;
+    width: 600px;
+}
+
+.feedback .input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback .input>div {
+    width: 50%;
+}
+
+.feedback form label {
+    color: #4F4F4F;
+    font-size: 14px;
+}
+
+.feedback form input,
+.feedback form textarea {
+    background: #2c2420;
+    border-radius: 10px;
+    border: 0.6px solid #CECECE;
+    display: block;
+    width: 90%;
+    padding: 15px 10px;
+    outline: none;
+    color: #fff;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.feedback form .one-line {
+    width: 96%;
+}
+
+.feedback form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.feedback form button {
+    background: #dc7000;
+    border-radius: 50px;
+    padding: 20px 20px;
+    border: 0;
+    transition: all 500ms ease;
+    font-size: 15px;
+    float: right;
+    width: 200px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.feedback form button:hover {
+    transform: scale(1.1);
+    color: chocolate;
+    color: #ccc;
+}
+
+footer .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+footer .blocks p {
+    width: 300px;
+    margin: 15px 0;
+}
+
+footer .block h4 {
+    font-weight: 500px;
+    font-size: 17px;
+}
+
+footer .blocks ul {
+    list-style: none;
+}
+
+footer .blocks ul li {
+    margin-top: 7px;
+}
+
+footer hr {
+    margin: 30px 0;
+    border: 0;
+    height: 0.6px;
+    background: #ccc;
+}
+
+footer>p {
+    text-align: center;
+}
